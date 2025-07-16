@@ -47,7 +47,7 @@ def generate_random_lines(wordlist, num_lines=10, max_width=50):
 
 
 def load_extreme_lines():
-    lines = ["Name und forname:"]
+    lines = ["Name und Vorname? Grzg...."]
     with open("g.txt", "r") as f:
         words = [line.strip() for line in f if line.strip()]
     for _ in range(49):
