@@ -1,0 +1,388 @@
+variable
+constant
+data type
+integer
+float
+string
+boolean
+array
+list
+dictionary
+set
+tuple
+loop
+for loop
+while loop
+do while loop
+break
+continue
+iteration
+recursion
+function
+parameter
+argument
+return value
+scope
+global scope
+local scope
+closure
+lambda
+callback
+higher order function
+anonymous function
+pure function
+side effect
+mutable
+immutable
+class
+object
+instance
+constructor
+method
+inheritance
+encapsulation
+abstraction
+polymorphism
+interface
+composition
+aggregation
+static method
+class method
+getter
+setter
+attribute
+property
+access modifier
+public
+private
+protected
+module
+package
+import
+namespace
+library
+framework
+API
+REST
+endpoint
+HTTP
+request
+response
+status code
+JSON
+XML
+serialization
+deserialization
+asynchronous
+synchronous
+event loop
+promise
+async
+await
+thread
+process
+concurrency
+parallelism
+deadlock
+race condition
+critical section
+mutex
+semaphore
+locking
+non-blocking
+garbage collection
+memory leak
+stack
+heap
+pointer
+reference
+null
+undefined
+exception
+error
+try
+catch
+finally
+throw
+assertion
+unit test
+integration test
+test coverage
+mock
+stub
+TDD
+CI/CD
+build
+compile
+interpreter
+runtime
+debugger
+logging
+version control
+git
+branch
+merge
+rebase
+commit
+push
+pull
+clone
+fork
+diff
+conflict
+deployment
+container
+Docker
+virtual machine
+environment
+configuration
+dependency
+package manager
+npm
+pip
+yarn
+build system
+Makefile
+CMake
+webpack
+syntax
+semantics
+token
+expression
+statement
+operator
+arithmetic operator
+logical operator
+bitwise operator
+ternary operator
+assignment
+comparison
+loop invariant
+algorithm
+big O notation
+time complexity
+space complexity
+sorting
+searching
+binary search
+merge sort
+quick sort
+hashing
+hash table
+linked list
+stack (data structure)
+queue
+priority queue
+heap (data structure)
+tree
+binary tree
+binary search tree
+graph
+DFS
+BFS
+shortest path
+dynamic programming
+greedy algorithm
+backtracking
+memoization
+divide and conquer
+brute force
+regex
+finite state machine
+compiler
+interpreter
+JIT
+tokenization
+parsing
+AST
+bytecode
+the
+be
+to
+of
+and
+a
+in
+that
+have
+I
+it
+for
+not
+on
+with
+he
+as
+you
+do
+at
+this
+but
+his
+by
+from
+they
+we
+say
+her
+she
+or
+an
+will
+my
+one
+all
+would
+there
+their
+what
+so
+up
+out
+if
+about
+who
+get
+which
+go
+me
+when
+make
+can
+like
+time
+no
+just
+him
+know
+take
+people
+into
+year
+your
+good
+some
+could
+them
+see
+other
+than
+then
+now
+look
+only
+come
+its
+over
+think
+also
+back
+after
+use
+two
+how
+our
+work
+first
+well
+way
+even
+new
+want
+because
+any
+these
+give
+day
+most
+us
+is
+are
+was
+were
+been
+has
+had
+does
+did
+having
+being
+may
+might
+should
+shall
+must
+would
+cannot
+every
+more
+such
+very
+still
+where
+why
+too
+much
+many
+before
+through
+each
+those
+both
+under
+again
+off
+always
+never
+own
+while
+yes
+sure
+right
+left
+end
+start
+help
+next
+last
+part
+place
+long
+little
+great
+old
+young
+high
+low
+same
+another
+few
+group
+number
+fact
+word
+name
+home
+school
+man
+woman
+child
+country
+world
+family
+friend
+house
+room
+hand
+eye
+life
+week
+month
+day
+night
+morning
+evening
+hour
+minute
+second
+moment

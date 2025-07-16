@@ -134,3 +134,39 @@ Wed Jul 16 18:46:50 2025 | "dam; on the eighth day thou sh..." | WPM: 37 | Accur
 Wed Jul 16 18:47:07 2025 | "31  And ye shall be holy men u..." | WPM: 32 | Accuracy: 88% | Time: 16.95s
 Wed Jul 16 18:47:22 2025 | "shall ye eat any flesh that is..." | WPM: 38 | Accuracy: 94% | Time: 15.21s
 Wed Jul 16 18:47:34 2025 | "the field; ye shall cast it to..." | WPM: 40 | Accuracy: 83% | Time: 12.07s
+Wed Jul 16 18:57:24 2025 | 5 lines
+  "while loop critical section it..." | WPM: 51 | Acc: 100% | Time: 11.35s
+  "she catch interpreter little o..." | WPM: 47 | Acc: 91% | Time: 10.7s
+  "big O notation most AST ternar..." | WPM: 33 | Acc: 87% | Time: 16.77s
+  "configuration new parsing modu..." | WPM: 50 | Acc: 96% | Time: 11.86s
+  "we can has same from it polymo..." | WPM: 33 | Acc: 94% | Time: 16.88s
+  → Total WPM: 41, Accuracy: 94%
+
+Wed Jul 16 19:09:47 2025 | 0 lines
+  → Total WPM: 0, Accuracy: 0%
+
+Wed Jul 16 19:09:52 2025 | 0 lines
+  → Total WPM: 0, Accuracy: 0%
+
+Wed Jul 16 19:11:02 2025 | 0 lines
+  → Total WPM: 0, Accuracy: 0%
+
+Wed Jul 16 19:11:07 2025 | 0 lines
+  → Total WPM: 0, Accuracy: 0%
+
+Wed Jul 16 19:11:12 2025 | 0 lines
+  → Total WPM: 0, Accuracy: 0%
+
+Wed Jul 16 19:12:32 2025 | 1 lines
+  "Name und forname:" | WPM: 23 | Acc: 89% | Time: 8.91s
+  → Total WPM: 23, Accuracy: 89%
+
+Wed Jul 16 19:13:07 2025 | 0 lines
+  → Total WPM: 0, Accuracy: 0%
+
+Wed Jul 16 19:14:17 2025 | 0 lines
+  → Total WPM: 0, Accuracy: 0%
+
+Wed Jul 16 19:37:37 2025 | 0 lines
+  → Total WPM: 0, Accuracy: 0%
+
