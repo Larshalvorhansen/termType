@@ -5,7 +5,9 @@ import random
 import os
 
 
-def preprocess_text(input_path="text.txt", output_path="processedtext.txt", width=50):
+def preprocess_text(
+    input_path="custom.txt", output_path="processedcustom.txt", width=50
+):
     try:
         with open(input_path, "r") as infile, open(output_path, "w") as outfile:
             for line in infile:
@@ -132,7 +134,7 @@ def calc_stats(stats):
 
 
 def save_stats(lines, total_stats):
-    with open("results.txt", "a") as f:
+    with open("statistics.txt", "a") as f:
         f.write(f"{time.ctime()} | {len(lines)} lines\n")
         for line, stats in zip(lines, total_stats):
             wpm, acc, dur = calc_stats(stats)
@@ -170,7 +172,7 @@ def show_summary(stdscr, stats):
     stdscr.addstr(4, 0, f"Total mistakes: {total_mistakes}")
     stdscr.addstr(5, 0, f"Overall WPM:    {round(wpm)}")
     stdscr.addstr(6, 0, f"Accuracy:       {round(acc)}%")
-    stdscr.addstr(8, 0, "Stats saved to results.txt. Press any key to exit.")
+    stdscr.addstr(8, 0, "Stats saved to statistics.txt. Press any key to exit.")
     stdscr.refresh()
     stdscr.getch()
 
@@ -201,7 +203,9 @@ import random
 import os
 
 
-def preprocess_text(input_path="text.txt", output_path="processedtext.txt", width=50):
+def preprocess_text(
+    input_path="custom.txt", output_path="processedcustom.txt", width=50
+):
     try:
         with open(input_path, "r") as infile, open(output_path, "w") as outfile:
             for line in infile:
@@ -328,7 +332,7 @@ def calc_stats(stats):
 
 
 def save_stats(lines, total_stats):
-    with open("results.txt", "a") as f:
+    with open("statistics.txt", "a") as f:
         f.write(f"{time.ctime()} | {len(lines)} lines\n")
         for line, stats in zip(lines, total_stats):
             wpm, acc, dur = calc_stats(stats)
@@ -366,7 +370,7 @@ def show_summary(stdscr, stats):
     stdscr.addstr(4, 0, f"Total mistakes: {total_mistakes}")
     stdscr.addstr(5, 0, f"Overall WPM:    {round(wpm)}")
     stdscr.addstr(6, 0, f"Accuracy:       {round(acc)}%")
-    stdscr.addstr(8, 0, "Stats saved to results.txt. Press any key to exit.")
+    stdscr.addstr(8, 0, "Stats saved to statistics.txt. Press any key to exit.")
     stdscr.refresh()
     stdscr.getch()
 
@@ -412,21 +416,21 @@ def main():
         print_banner()
         print("1. Custom text")
         print("2. Randomly genreated text")
-        print("3. Extreme mode")
+        print("3. Extreme")
         return input("Enter a mode [1-3]: ").strip()
 
     choice = prompt_menu()
 
     if choice == "1":
         try:
-            with open("text.txt", "r") as f:
+            with open("custom.txt", "r") as f:
                 lines = [line.strip() for line in f if line.strip()]
         except FileNotFoundError:
-            print("Missing file: text.txt")
+            print("Missing file: custom.txt")
             return
 
         if not lines:
-            print("Your text.txt file is empty.")
+            print("Your custom.txt file is empty.")
             return
 
     elif choice == "2":

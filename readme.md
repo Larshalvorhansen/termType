@@ -1,3 +1,1 @@
-ASHII termType
-
-is a typing practice tool for the therminal!
+termType is a typing practice tool for the therminal!
