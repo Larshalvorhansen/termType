@@ -1,43 +1,79 @@
 import curses
 import time
+import textwrap
 
 
-def typing_tutor(stdscr, text, index, total):
+def preprocess_text(input_path="text.txt", output_path="processedtext.txt", width=50):
+    try:
+        with open(input_path, "r") as infile, open(output_path, "w") as outfile:
+            for line in infile:
+                line = line.strip()
+                if not line:
+                    continue
+                wrapped = textwrap.wrap(line, width=width)
+                for part in wrapped:
+                    outfile.write(part + "\n")
+    except FileNotFoundError:
+        print(f"Missing file: {input_path}")
+        return False
+    return True
+
+
+def typing_tutor(stdscr, text, index, total, next_line=None):
     curses.curs_set(1)
     stdscr.clear()
 
-    # Line progress indicator
-    stdscr.addstr(0, 0, f"[{index}/{total}]")
-    stdscr.addstr(2, 0, text)
-
-    i = 0
+    max_y, max_x = stdscr.getmaxyx()
+    text = text[:max_x]  # Ensure line fits screen width
+    typed_chars = []
     mistakes = 0
     start_time = time.time()
 
-    while i < len(text):
+    while True:
+        stdscr.clear()
+        stdscr.addstr(0, 0, f"[{index}/{total}]")
+
+        # Draw current line with color-coded characters
+        for i, expected_char in enumerate(text):
+            if i < len(typed_chars):
+                typed_char = typed_chars[i]
+                if typed_char == expected_char:
+                    color = curses.color_pair(1)  # green
+                else:
+                    color = curses.color_pair(2)  # red
+                stdscr.addstr(2, i, typed_char, color)
+            else:
+                stdscr.addstr(2, i, expected_char, curses.A_DIM)
+
+        # Show next line in gray
+        if next_line:
+            next_line = next_line[:max_x]
+            stdscr.addstr(4, 0, next_line, curses.A_DIM)
+
+        stdscr.move(2, len(typed_chars))  # Move cursor to current position
+        stdscr.refresh()
+
+        if len(typed_chars) == len(text):
+            break
+
         ch = stdscr.get_wch()
 
-        if isinstance(ch, str) and ord(ch) == 27:  # ESC
-            if confirm_quit(stdscr):
-                return None  # user chose to quit
-            else:
-                stdscr.clear()
-                stdscr.addstr(0, 0, f"[{index}/{total}]")
-                stdscr.addstr(2, 0, text)
-                stdscr.move(2, i)
-                stdscr.refresh()
+        if isinstance(ch, str):
+            if ord(ch) == 27:  # ESC
+                if confirm_quit(stdscr):
+                    return None
+                else:
+                    continue
+            elif ord(ch) in (8, 127):  # Backspace
+                if typed_chars:
+                    typed_chars.pop()
                 continue
-
-        correct = ch == text[i]
-        color = curses.color_pair(1) if correct else curses.color_pair(2)
-        stdscr.addstr(2, i, text[i], color)
-
-        if correct:
-            i += 1
-        else:
-            mistakes += 1
-
-        stdscr.refresh()
+            elif ch == "\n":
+                continue  # ignore Enter
+            elif len(ch) == 1:
+                if ch != text[len(typed_chars)]:
+                    mistakes += 1
+                typed_chars.append(ch)
 
     end_time = time.time()
     return {"chars": len(text), "mistakes": mistakes, "time": end_time - start_time}
@@ -81,7 +117,8 @@ def run_all_lines(stdscr, lines):
     results = []
 
     for i, line in enumerate(lines):
-        stats = typing_tutor(stdscr, line, i + 1, len(lines))
+        next_line = lines[i + 1] if i + 1 < len(lines) else None
+        stats = typing_tutor(stdscr, line, i + 1, len(lines), next_line)
         if stats is None:
             stdscr.clear()
             stdscr.addstr(0, 0, "Quitting early.")
@@ -91,11 +128,9 @@ def run_all_lines(stdscr, lines):
         save_stats(line, wpm, acc, dur)
         results.append(stats)
 
-    # Compute overall stats
     total_chars = sum(r["chars"] for r in results)
     total_mistakes = sum(r["mistakes"] for r in results)
     total_time = sum(r["time"] for r in results)
-    total_entries = len(results)
 
     wpm = (total_chars / 5) / (total_time / 60) if total_time > 0 else 0
     acc = (
@@ -104,7 +139,6 @@ def run_all_lines(stdscr, lines):
         else 0
     )
 
-    # Show summary
     stdscr.clear()
     stdscr.addstr(0, 0, "All lines completed.\n", curses.A_BOLD)
     stdscr.addstr(2, 0, f"Total time:     {round(total_time, 2)}s")
@@ -119,15 +153,18 @@ def run_all_lines(stdscr, lines):
 
 
 def main():
+    if not preprocess_text():
+        return
+
     try:
-        with open("text.txt", "r") as f:
+        with open("processedtext.txt", "r") as f:
             lines = [line.strip() for line in f if line.strip()]
     except FileNotFoundError:
-        print("Missing file: text.txt")
+        print("Missing file: processedtext.txt")
         return
 
     if not lines:
-        print("Your text.txt file is empty.")
+        print("Your processedtext.txt file is empty.")
         return
 
     curses.wrapper(lambda stdscr: run_all_lines(stdscr, lines))

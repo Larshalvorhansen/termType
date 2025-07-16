@@ -25,3 +25,112 @@ Wed Jul 16 16:52:51 2025 | "u u u u u u u u u u u." | WPM: 62 | Accuracy: 85% | 
 Wed Jul 16 16:53:32 2025 | "Hei hei" | WPM: 10 | Accuracy: 70% | Time: 8.56s
 Wed Jul 16 16:53:34 2025 | "Yo yo" | WPM: 25 | Accuracy: 100% | Time: 2.36s
 Wed Jul 16 16:53:38 2025 | "u u u u u u u u u u u." | WPM: 69 | Accuracy: 100% | Time: 3.81s
+Wed Jul 16 17:48:36 2025 | "1  If a man shall steal an ox,..." | WPM: 34 | Accuracy: 73% | Time: 47.33s
+Wed Jul 16 17:49:07 2025 | "2  If a thief be found breakin..." | WPM: 40 | Accuracy: 91% | Time: 30.4s
+Wed Jul 16 18:05:11 2025 | "1  If a man shall steal an ox,..." | WPM: 32 | Accuracy: 72% | Time: 50.42s
+Wed Jul 16 18:05:43 2025 | "2  If a thief be found breakin..." | WPM: 38 | Accuracy: 80% | Time: 31.69s
+Wed Jul 16 18:06:50 2025 | "3  If the sun be risen upon hi..." | WPM: 29 | Accuracy: 61% | Time: 66.87s
+Wed Jul 16 18:13:30 2025 | "1  If a man shall steal an ox,..." | WPM: 19 | Accuracy: 47% | Time: 28.85s
+Wed Jul 16 18:13:48 2025 | "kill it, or sell it; he shall ..." | WPM: 32 | Accuracy: 71% | Time: 17.62s
+Wed Jul 16 18:14:00 2025 | "for an ox, and four sheep for ..." | WPM: 39 | Accuracy: 78% | Time: 11.67s
+Wed Jul 16 18:14:16 2025 | "2  If a thief be found breakin..." | WPM: 37 | Accuracy: 83% | Time: 16.06s
+Wed Jul 16 18:14:32 2025 | "that he die, there shall no bl..." | WPM: 37 | Accuracy: 74% | Time: 16.06s
+Wed Jul 16 18:14:47 2025 | "3  If the sun be risen upon hi..." | WPM: 38 | Accuracy: 85% | Time: 14.83s
+Wed Jul 16 18:15:03 2025 | "blood shed for him; for he sho..." | WPM: 31 | Accuracy: 61% | Time: 16.72s
+Wed Jul 16 18:15:15 2025 | "restitution; if he have nothin..." | WPM: 52 | Accuracy: 88% | Time: 11.31s
+Wed Jul 16 18:24:50 2025 | "1  If a man shall steal an ox,..." | WPM: 35 | Accuracy: 85% | Time: 15.87s
+Wed Jul 16 18:25:07 2025 | "kill it, or sell it; he shall ..." | WPM: 33 | Accuracy: 80% | Time: 17.3s
+Wed Jul 16 18:25:28 2025 | "for an ox, and four sheep for ..." | WPM: 22 | Accuracy: 51% | Time: 20.94s
+Wed Jul 16 18:28:07 2025 | "1  If a man shall steal an ox,..." | WPM: 36 | Accuracy: 77% | Time: 15.29s
+Wed Jul 16 18:28:23 2025 | "kill it, or sell it; he shall ..." | WPM: 36 | Accuracy: 78% | Time: 15.76s
+Wed Jul 16 18:28:33 2025 | "for an ox, and four sheep for ..." | WPM: 47 | Accuracy: 97% | Time: 9.79s
+Wed Jul 16 18:28:48 2025 | "2  If a thief be found breakin..." | WPM: 40 | Accuracy: 94% | Time: 15.15s
+Wed Jul 16 18:28:57 2025 | "that he die, there shall no bl..." | WPM: 62 | Accuracy: 98% | Time: 9.73s
+Wed Jul 16 18:29:13 2025 | "3  If the sun be risen upon hi..." | WPM: 36 | Accuracy: 81% | Time: 15.79s
+Wed Jul 16 18:29:24 2025 | "blood shed for him; for he sho..." | WPM: 47 | Accuracy: 93% | Time: 10.92s
+Wed Jul 16 18:29:36 2025 | "restitution; if he have nothin..." | WPM: 49 | Accuracy: 88% | Time: 11.98s
+Wed Jul 16 18:29:41 2025 | "sold for his theft." | WPM: 43 | Accuracy: 83% | Time: 5.29s
+Wed Jul 16 18:29:55 2025 | "4  If the theft be certainly f..." | WPM: 40 | Accuracy: 92% | Time: 13.63s
+Wed Jul 16 18:30:12 2025 | "alive, whether it be ox, or as..." | WPM: 33 | Accuracy: 85% | Time: 16.51s
+Wed Jul 16 18:30:23 2025 | "shall restore double." | WPM: 23 | Accuracy: 66% | Time: 11.04s
+Wed Jul 16 18:30:37 2025 | "5  If a man shall cause a fiel..." | WPM: 41 | Accuracy: 94% | Time: 14.52s
+Wed Jul 16 18:30:57 2025 | "eaten, and shall put in his be..." | WPM: 29 | Accuracy: 80% | Time: 20.19s
+Wed Jul 16 18:31:09 2025 | "in another mans field; of the ..." | WPM: 45 | Accuracy: 88% | Time: 12.03s
+Wed Jul 16 18:31:22 2025 | "field, and of the best of his ..." | WPM: 46 | Accuracy: 92% | Time: 12.7s
+Wed Jul 16 18:31:28 2025 | "he make restitution." | WPM: 39 | Accuracy: 83% | Time: 6.15s
+Wed Jul 16 18:31:47 2025 | "6  If fire break out, and catc..." | WPM: 33 | Accuracy: 82% | Time: 18.42s
+Wed Jul 16 18:31:58 2025 | "the stacks of corn, or the sta..." | WPM: 52 | Accuracy: 96% | Time: 11.07s
+Wed Jul 16 18:32:12 2025 | "field, be consumed therewith; ..." | WPM: 41 | Accuracy: 88% | Time: 14.37s
+Wed Jul 16 18:32:20 2025 | "fire shall surely make restitu..." | WPM: 55 | Accuracy: 92% | Time: 7.65s
+Wed Jul 16 18:32:34 2025 | "7  If a man shall deliver unto..." | WPM: 42 | Accuracy: 93% | Time: 14.26s
+Wed Jul 16 18:32:49 2025 | "or stuff to keep, and it be st..." | WPM: 40 | Accuracy: 81% | Time: 15.0s
+Wed Jul 16 18:33:05 2025 | "house; if the thief be found, ..." | WPM: 37 | Accuracy: 83% | Time: 16.0s
+Wed Jul 16 18:33:21 2025 | "8  If the thief be not found, ..." | WPM: 35 | Accuracy: 87% | Time: 16.38s
+Wed Jul 16 18:33:34 2025 | "the house shall be brought unt..." | WPM: 46 | Accuracy: 86% | Time: 13.11s
+Wed Jul 16 18:33:51 2025 | "whether he have put his hand u..." | WPM: 34 | Accuracy: 83% | Time: 16.98s
+Wed Jul 16 18:33:54 2025 | "goods." | WPM: 32 | Accuracy: 100% | Time: 2.25s
+Wed Jul 16 18:34:11 2025 | "9  For all manner of trespass,..." | WPM: 33 | Accuracy: 86% | Time: 17.59s
+Wed Jul 16 18:34:23 2025 | "ox, for ass, for sheep, for ra..." | WPM: 48 | Accuracy: 96% | Time: 11.85s
+Wed Jul 16 18:34:33 2025 | "manner of lost thing, which an..." | WPM: 62 | Accuracy: 94% | Time: 9.69s
+Wed Jul 16 18:34:44 2025 | "be his, the cause of both part..." | WPM: 48 | Accuracy: 86% | Time: 10.9s
+Wed Jul 16 18:34:59 2025 | "before the judges; and whom th..." | WPM: 34 | Accuracy: 81% | Time: 15.54s
+Wed Jul 16 18:35:16 2025 | "condemn, he shall pay double u..." | WPM: 34 | Accuracy: 83% | Time: 16.98s
+Wed Jul 16 18:35:32 2025 | "10  If a man deliver unto his ..." | WPM: 37 | Accuracy: 88% | Time: 16.22s
+Wed Jul 16 18:35:48 2025 | "an ox, or a sheep, or any beas..." | WPM: 38 | Accuracy: 81% | Time: 15.1s
+Wed Jul 16 18:36:03 2025 | "die, or be hurt, or driven awa..." | WPM: 39 | Accuracy: 86% | Time: 15.43s
+Wed Jul 16 18:36:18 2025 | "11  Then shall an oath of the ..." | WPM: 40 | Accuracy: 88% | Time: 14.96s
+Wed Jul 16 18:36:30 2025 | "both, that he hath not put his..." | WPM: 45 | Accuracy: 90% | Time: 11.65s
+Wed Jul 16 18:36:42 2025 | "neighbours goods; and the owne..." | WPM: 48 | Accuracy: 89% | Time: 12.63s
+Wed Jul 16 18:36:49 2025 | "thereof, and he shall not make..." | WPM: 67 | Accuracy: 98% | Time: 6.97s
+Wed Jul 16 18:37:04 2025 | "12  And if it be stolen from h..." | WPM: 38 | Accuracy: 82% | Time: 15.04s
+Wed Jul 16 18:37:14 2025 | "restitution unto the owner the..." | WPM: 42 | Accuracy: 88% | Time: 9.99s
+Wed Jul 16 18:37:28 2025 | "13  If it be torn in pieces, t..." | WPM: 44 | Accuracy: 94% | Time: 13.6s
+Wed Jul 16 18:37:37 2025 | "for witness, and he shall not ..." | WPM: 63 | Accuracy: 98% | Time: 9.54s
+Wed Jul 16 18:37:41 2025 | "was torn." | WPM: 29 | Accuracy: 75% | Time: 3.75s
+Wed Jul 16 18:37:55 2025 | "14  And if a man borrow ought ..." | WPM: 40 | Accuracy: 84% | Time: 14.26s
+Wed Jul 16 18:38:10 2025 | "and it be hurt, or die, the ow..." | WPM: 40 | Accuracy: 89% | Time: 14.14s
+Wed Jul 16 18:38:21 2025 | "not with it, he shall surely m..." | WPM: 46 | Accuracy: 95% | Time: 11.04s
+Wed Jul 16 18:38:36 2025 | "15  But if the owner thereof b..." | WPM: 38 | Accuracy: 80% | Time: 15.36s
+Wed Jul 16 18:38:50 2025 | "not make it good: if it be an ..." | WPM: 42 | Accuracy: 85% | Time: 14.34s
+Wed Jul 16 18:38:54 2025 | "for his hire." | WPM: 48 | Accuracy: 93% | Time: 3.28s
+Wed Jul 16 18:39:05 2025 | "16  And if a man entice a maid..." | WPM: 46 | Accuracy: 91% | Time: 10.99s
+Wed Jul 16 18:39:17 2025 | "betrothed, and lie with her, h..." | WPM: 47 | Accuracy: 93% | Time: 12.9s
+Wed Jul 16 18:39:23 2025 | "her to be his wife." | WPM: 43 | Accuracy: 86% | Time: 5.32s
+Wed Jul 16 18:39:35 2025 | "17  If her father utterly refu..." | WPM: 48 | Accuracy: 92% | Time: 12.33s
+Wed Jul 16 18:39:49 2025 | "him, he shall pay money accord..." | WPM: 42 | Accuracy: 89% | Time: 13.92s
+Wed Jul 16 18:39:52 2025 | "virgins." | WPM: 32 | Accuracy: 80% | Time: 2.98s
+Wed Jul 16 18:40:04 2025 | "18  Thou shalt not suffer a wi..." | WPM: 40 | Accuracy: 84% | Time: 12.45s
+Wed Jul 16 18:40:17 2025 | "19  Whosoever lieth with a bea..." | WPM: 45 | Accuracy: 92% | Time: 12.71s
+Wed Jul 16 18:40:22 2025 | "put to death." | WPM: 30 | Accuracy: 81% | Time: 5.16s
+Wed Jul 16 18:40:39 2025 | "20  He that sacrificeth unto a..." | WPM: 35 | Accuracy: 89% | Time: 16.25s
+Wed Jul 16 18:40:52 2025 | "the LORD only, he shall be utt..." | WPM: 41 | Accuracy: 87% | Time: 13.27s
+Wed Jul 16 18:41:12 2025 | "21  Thou shalt neither vex a s..." | WPM: 30 | Accuracy: 77% | Time: 20.08s
+Wed Jul 16 18:41:30 2025 | "him: for ye were strangers in ..." | WPM: 31 | Accuracy: 86% | Time: 18.37s
+Wed Jul 16 18:41:44 2025 | "22  Ye shall not afflict any w..." | WPM: 42 | Accuracy: 96% | Time: 14.02s
+Wed Jul 16 18:41:46 2025 | "child." | WPM: 41 | Accuracy: 100% | Time: 1.75s
+Wed Jul 16 18:41:59 2025 | "23  If thou afflict them in an..." | WPM: 45 | Accuracy: 96% | Time: 13.35s
+Wed Jul 16 18:42:14 2025 | "at all unto me, I will surely ..." | WPM: 36 | Accuracy: 87% | Time: 14.85s
+Wed Jul 16 18:42:28 2025 | "24  And my wrath shall wax hot..." | WPM: 40 | Accuracy: 89% | Time: 13.96s
+Wed Jul 16 18:42:41 2025 | "you with the sword; and your w..." | WPM: 42 | Accuracy: 90% | Time: 12.25s
+Wed Jul 16 18:42:50 2025 | "widows, and your children fath..." | WPM: 49 | Accuracy: 90% | Time: 9.06s
+Wed Jul 16 18:43:04 2025 | "25  If thou lend money to any ..." | WPM: 40 | Accuracy: 91% | Time: 14.82s
+Wed Jul 16 18:43:16 2025 | "poor by thee, thou shalt not b..." | WPM: 47 | Accuracy: 90% | Time: 11.24s
+Wed Jul 16 18:43:34 2025 | "usurer, neither shalt thou lay..." | WPM: 29 | Accuracy: 71% | Time: 18.79s
+Wed Jul 16 18:43:52 2025 | "26  If thou at all take thy ne..." | WPM: 34 | Accuracy: 88% | Time: 17.1s
+Wed Jul 16 18:44:04 2025 | "pledge, thou shalt deliver it ..." | WPM: 49 | Accuracy: 89% | Time: 12.18s
+Wed Jul 16 18:44:09 2025 | "sun goeth down:" | WPM: 34 | Accuracy: 83% | Time: 5.31s
+Wed Jul 16 18:44:22 2025 | "27  For that is his covering o..." | WPM: 42 | Accuracy: 92% | Time: 12.57s
+Wed Jul 16 18:44:35 2025 | "raiment for his skin: wherein ..." | WPM: 42 | Accuracy: 91% | Time: 13.84s
+Wed Jul 16 18:44:47 2025 | "it shall come to pass, when he..." | WPM: 50 | Accuracy: 92% | Time: 11.14s
+Wed Jul 16 18:45:05 2025 | "that I will hear; for I am gra..." | WPM: 24 | Accuracy: 73% | Time: 17.91s
+Wed Jul 16 18:45:17 2025 | "28  Thou shalt not revile the ..." | WPM: 47 | Accuracy: 92% | Time: 12.49s
+Wed Jul 16 18:45:22 2025 | "ruler of thy people." | WPM: 50 | Accuracy: 83% | Time: 4.83s
+Wed Jul 16 18:45:35 2025 | "29  Thou shalt not delay to of..." | WPM: 44 | Accuracy: 89% | Time: 13.6s
+Wed Jul 16 18:45:54 2025 | "ripe fruits, and of thy liquor..." | WPM: 32 | Accuracy: 86% | Time: 18.2s
+Wed Jul 16 18:46:05 2025 | "thy sons shalt thou give unto ..." | WPM: 35 | Accuracy: 80% | Time: 11.16s
+Wed Jul 16 18:46:23 2025 | "30  Likewise shalt thou do wit..." | WPM: 30 | Accuracy: 85% | Time: 18.67s
+Wed Jul 16 18:46:35 2025 | "with thy sheep: seven days it ..." | WPM: 48 | Accuracy: 92% | Time: 11.84s
+Wed Jul 16 18:46:50 2025 | "dam; on the eighth day thou sh..." | WPM: 37 | Accuracy: 88% | Time: 14.59s
+Wed Jul 16 18:47:07 2025 | "31  And ye shall be holy men u..." | WPM: 32 | Accuracy: 88% | Time: 16.95s
+Wed Jul 16 18:47:22 2025 | "shall ye eat any flesh that is..." | WPM: 38 | Accuracy: 94% | Time: 15.21s
+Wed Jul 16 18:47:34 2025 | "the field; ye shall cast it to..." | WPM: 40 | Accuracy: 83% | Time: 12.07s
