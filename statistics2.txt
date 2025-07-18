@@ -1,0 +1,99 @@
+Wed Jul 16 19:55:38 2025 | 2 lines
+  "Replace this text with your ow..." | WPM: 88 | Acc: 47% | Time: 5.97s
+  "The file is called custom.txt" | WPM: 191 | Acc: 49% | Time: 1.83s
+  → Total WPM: 112, Accuracy: 48%
+
+Wed Jul 16 19:55:53 2025 | 2 lines
+  "binary search tree critical se..." | WPM: 209 | Acc: 49% | Time: 4.41s
+  "binary search tree evening abs..." | WPM: 209 | Acc: 52% | Time: 2.41s
+  → Total WPM: 209, Accuracy: 50%
+
+Wed Jul 16 19:57:01 2025 | 0 lines
+  → Total WPM: 0, Accuracy: 0%
+
+Wed Jul 16 19:59:03 2025 | 1 lines
+  "Name und forname:" | WPM: 17 | Acc: 81% | Time: 11.77s
+  → Total WPM: 17, Accuracy: 81%
+
+Wed Jul 16 19:59:32 2025 | 0 lines
+  → Total WPM: 0, Accuracy: 0%
+
+Wed Jul 16 20:01:13 2025 | 0 lines
+  → Total WPM: 0, Accuracy: 0%
+
+Thu Jul 17 15:14:49 2025 | 11 lines
+  "25  And ye shall serve the LOR..." | WPM: 58 | Acc: 97% | Time: 29.16s
+  "26  There shall nothing cast t..." | WPM: 38 | Acc: 86% | Time: 33.58s
+  "27  I will send my fear before..." | WPM: 48 | Acc: 93% | Time: 18.84s
+  "thou shalt come, and I will ma..." | WPM: 47 | Acc: 90% | Time: 20.07s
+  "28  And I will send hornets be..." | WPM: 34 | Acc: 83% | Time: 43.8s
+  "29  I will not drive them out ..." | WPM: 43 | Acc: 93% | Time: 39.37s
+  "30  By little and little I wil..." | WPM: 45 | Acc: 92% | Time: 29.42s
+  "31  And I will set thy bounds ..." | WPM: 44 | Acc: 90% | Time: 33.09s
+  "for I will deliver the inhabit..." | WPM: 47 | Acc: 87% | Time: 26.94s
+  "32  Thou shalt make no covenan..." | WPM: 48 | Acc: 91% | Time: 15.78s
+  "33  They shall not dwell in th..." | WPM: 53 | Acc: 93% | Time: 31.51s
+  → Total WPM: 45, Accuracy: 90%
+
+Fri Jul 18 15:34:37 2025 | 59 lines
+  "1  And he said unto Moses, Com..." | WPM: 26 | Acc: 80% | Time: 22.85s
+  "thou, and Aaron, Nadab, and Ab..." | WPM: 30 | Acc: 86% | Time: 19.44s
+  "the elders of Israel; and wors..." | WPM: 40 | Acc: 88% | Time: 13.91s
+  "2  And Moses alone shall come ..." | WPM: 32 | Acc: 81% | Time: 18.24s
+  "they shall not come nigh; neit..." | WPM: 30 | Acc: 83% | Time: 20.24s
+  "go up with him." | WPM: 35 | Acc: 94% | Time: 5.16s
+  "3  And Moses came and told the..." | WPM: 41 | Acc: 90% | Time: 13.08s
+  "words of the LORD, and all the..." | WPM: 47 | Acc: 86% | Time: 12.64s
+  "the people answered with one v..." | WPM: 49 | Acc: 88% | Time: 12.11s
+  "the words which the LORD hath ..." | WPM: 37 | Acc: 78% | Time: 15.01s
+  "4  And Moses wrote all the wor..." | WPM: 31 | Acc: 91% | Time: 18.96s
+  "rose up early in the morning, ..." | WPM: 40 | Acc: 82% | Time: 15.17s
+  "under the hill, and twelve pil..." | WPM: 38 | Acc: 77% | Time: 15.15s
+  "the twelve tribes of Israel." | WPM: 25 | Acc: 80% | Time: 13.26s
+  "5  And he sent young men of th..." | WPM: 45 | Acc: 88% | Time: 11.35s
+  "Israel, which offered burnt of..." | WPM: 46 | Acc: 98% | Time: 10.86s
+  "sacrificed peace offerings of ..." | WPM: 43 | Acc: 89% | Time: 13.62s
+  "6  And Moses took half of the ..." | WPM: 44 | Acc: 96% | Time: 13.76s
+  "basons; and half of the blood ..." | WPM: 35 | Acc: 89% | Time: 16.76s
+  "altar." | WPM: 25 | Acc: 60% | Time: 2.84s
+  "7  And he took the book of the..." | WPM: 53 | Acc: 100% | Time: 11.1s
+  "in the audience of the people:..." | WPM: 50 | Acc: 94% | Time: 11.67s
+  "that the LORD hath said will w..." | WPM: 45 | Acc: 89% | Time: 11.2s
+  "obedient." | WPM: 38 | Acc: 82% | Time: 2.82s
+  "8  And Moses took the blood, a..." | WPM: 43 | Acc: 89% | Time: 13.39s
+  "the people, and said, Behold t..." | WPM: 54 | Acc: 94% | Time: 9.93s
+  "covenant, which the LORD hath ..." | WPM: 64 | Acc: 96% | Time: 8.05s
+  "concerning all these words." | WPM: 51 | Acc: 96% | Time: 6.39s
+  "9  Then went up Moses, and Aar..." | WPM: 32 | Acc: 88% | Time: 16.66s
+  "Abihu, and seventy of the elde..." | WPM: 46 | Acc: 100% | Time: 11.31s
+  "10  And they saw the God of Is..." | WPM: 41 | Acc: 84% | Time: 14.38s
+  "under his feet as it were a pa..." | WPM: 38 | Acc: 83% | Time: 13.6s
+  "sapphire stone, and as it were..." | WPM: 45 | Acc: 88% | Time: 12.98s
+  "in his clearness." | WPM: 33 | Acc: 81% | Time: 6.25s
+  "11  And upon the nobles of the..." | WPM: 51 | Acc: 96% | Time: 11.46s
+  "he laid not his hand: also the..." | WPM: 49 | Acc: 91% | Time: 11.83s
+  "eat and drink." | WPM: 49 | Acc: 93% | Time: 3.41s
+  "12  And the LORD said unto Mos..." | WPM: 25 | Acc: 82% | Time: 22.71s
+  "into the mount, and be there: ..." | WPM: 49 | Acc: 88% | Time: 12.25s
+  "tables of stone, and a law, an..." | WPM: 57 | Acc: 94% | Time: 10.5s
+  "I have written; that thou maye..." | WPM: 33 | Acc: 83% | Time: 16.09s
+  "13  And Moses rose up, and his..." | WPM: 38 | Acc: 90% | Time: 14.77s
+  "and Moses went up into the mou..." | WPM: 43 | Acc: 87% | Time: 11.22s
+  "14  And he said unto the elder..." | WPM: 57 | Acc: 100% | Time: 10.48s
+  "us, until we come again unto y..." | WPM: 29 | Acc: 79% | Time: 18.86s
+  "Aaron and Hur are with you: if..." | WPM: 34 | Acc: 85% | Time: 16.5s
+  "matters to do, let him come un..." | WPM: 50 | Acc: 95% | Time: 9.06s
+  "15  And Moses went up into the..." | WPM: 40 | Acc: 94% | Time: 14.53s
+  "covered the mount." | WPM: 35 | Acc: 86% | Time: 6.18s
+  "16  And the glory of the LORD ..." | WPM: 45 | Acc: 98% | Time: 12.18s
+  "Sinai, and the cloud covered i..." | WPM: 39 | Acc: 86% | Time: 15.27s
+  "seventh day he called unto Mos..." | WPM: 48 | Acc: 88% | Time: 12.13s
+  "of the cloud." | WPM: 33 | Acc: 87% | Time: 4.7s
+  "17  And the sight of the glory..." | WPM: 44 | Acc: 96% | Time: 12.58s
+  "like devouring fire on the top..." | WPM: 57 | Acc: 96% | Time: 10.59s
+  "eyes of the children of Israel..." | WPM: 43 | Acc: 84% | Time: 8.73s
+  "18  And Moses went into the mi..." | WPM: 40 | Acc: 89% | Time: 14.21s
+  "and gat him up into the mount:..." | WPM: 48 | Acc: 94% | Time: 11.72s
+  "the mount forty days and forty..." | WPM: 30 | Acc: 75% | Time: 15.13s
+  → Total WPM: 40, Accuracy: 88%
+

@@ -16,7 +16,7 @@ def preprocess_text(
                     continue
                 wrapped = textwrap.wrap(line, width=width)
                 for part in wrapped:
-                    outfile.write(part + "\n")
+                    outfile.write(part)
     except FileNotFoundError:
         print(f"Missing file: {input_path}")
         return False
@@ -415,42 +415,32 @@ def main():
         print("Welcome to ")
         print_banner()
         print("1. Custom text")
-        print("2. Randomly genreated text")
+        print("2. Randomly generated text")
         print("3. Extreme")
         return input("Enter a mode [1-3]: ").strip()
 
     choice = prompt_menu()
 
     if choice == "1":
+        if not preprocess_text():
+            return
         try:
-            with open("custom.txt", "r") as f:
+            with open("processedcustom.txt", "r") as f:
                 lines = [line.strip() for line in f if line.strip()]
         except FileNotFoundError:
-            print("Missing file: custom.txt")
-            return
-
-        if not lines:
-            print("Your custom.txt file is empty.")
+            print("Missing file: processedcustom.txt")
             return
 
     elif choice == "2":
-        try:
-            with open("common_words.txt", "r") as f:
-                words = [line.strip() for line in f if line.strip()]
-        except FileNotFoundError:
-            print("Missing file: g.txt")
+        wordlist = load_wordlist("common_words.txt")
+        if not wordlist:
             return
-
         num_lines = input("Number of lines [default 20]: ").strip()
         try:
             num_lines = int(num_lines)
         except:
             num_lines = 20
-
-        lines = []
-        for _ in range(num_lines):
-            line = " ".join(random.choices(words, k=random.randint(4, 10)))
-            lines.append(line)
+        lines = generate_random_lines(wordlist, num_lines=num_lines)
 
     elif choice == "3":
         lines = load_extreme_lines()
