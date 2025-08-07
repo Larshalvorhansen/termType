@@ -200,10 +200,10 @@ def run_all_lines(stdscr, lines):
 
 def print_bible_books():
     import shutil
+    import math
 
     cols = shutil.get_terminal_size().columns
 
-    # Bible books with chapter counts (you can update these if needed)
     books_with_chapters = [
         ("Genesis", 50),
         ("Exodus", 40),
@@ -286,12 +286,20 @@ def print_bible_books():
         ("Prayer of Manasseh", 1),
         ("2 Esdras", 16),
     ]
+
     entries = [f"{name} ({chapters})" for name, chapters in books_with_chapters]
+
     col_count = 3
-    rows = [entries[i : i + col_count] for i in range(0, len(entries), col_count)]
+    rows = math.ceil(len(entries) / col_count)
+
+    while len(entries) < rows * col_count:
+        entries.append("")
+
+    columns = [entries[i * rows : (i + 1) * rows] for i in range(col_count)]
+
     width = max(len(entry) for entry in entries) + 2
-    for row in rows:
-        line = "".join(entry.ljust(width) for entry in row)
+    for i in range(rows):
+        line = "".join(columns[j][i].ljust(width) for j in range(col_count))
         print(line.center(cols))
 
 
@@ -334,9 +342,11 @@ def fisk_mode():
             line = re.sub(r"  +", " ", line)
             cleaned.append(line.strip())
 
-            with open("processedcustom.txt", "w") as f:
-                for line in cleaned:
-                    f.write(line.strip() + "\n")
+        with open("processedcustom.txt", "w") as f:
+            for line in cleaned:
+                wrapped = textwrap.wrap(line.strip(), width=50)
+                for part in wrapped:
+                    f.write(part + "\n")
 
         return True
 
