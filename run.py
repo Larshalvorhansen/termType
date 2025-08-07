@@ -321,8 +321,6 @@ def fisk_mode():
             print("ERROR: kjv returned empty output")
             return False
 
-        print("Raw output:\n" + output)
-
         cleaned = []
 
         base_prefix = re.match(r"^[^\d]+ \d+", prompt)
@@ -340,7 +338,6 @@ def fisk_mode():
                 for line in cleaned:
                     f.write(line.strip() + "\n")
 
-        print("✅ Saved cleaned verses to processedcustom.txt")
         return True
 
     except Exception as e:
