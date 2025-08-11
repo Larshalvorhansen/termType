@@ -70,7 +70,18 @@ def typing_tutor(stdscr, text, index, total, next_line=None):
 
     while True:
         stdscr.clear()
-        stdscr.addstr(0, 0, f"[{index}/{total}]")
+
+        # Calculate vertical positions
+        line_y = max_y // 2  # center main text vertically
+        next_y = line_y + 2  # below main line
+        info_y = line_y - 2  # above main line for [index/total]
+
+        # Centered X positions
+        text_x = (max_x - len(text)) // 2
+        info_x = (max_x - len(f"[{index}/{total}]")) // 2
+        next_x = (max_x - len(next_line)) // 2 if next_line else 0
+
+        stdscr.addstr(info_y, info_x, f"[{index}/{total}]")
 
         for i, expected_char in enumerate(text):
             if i < len(typed_chars):
@@ -79,15 +90,15 @@ def typing_tutor(stdscr, text, index, total, next_line=None):
                     color = curses.color_pair(1)
                 else:
                     color = curses.color_pair(2)
-                stdscr.addstr(2, i, typed_char, color)
+                stdscr.addstr(line_y, text_x + i, typed_char, color)
             else:
-                stdscr.addstr(2, i, expected_char, curses.A_DIM)
+                stdscr.addstr(line_y, text_x + i, expected_char, curses.A_DIM)
 
         if next_line:
             next_line = next_line[:max_x]
-            stdscr.addstr(4, 0, next_line, curses.A_DIM)
+            stdscr.addstr(next_y, next_x, next_line, curses.A_DIM)
 
-        stdscr.move(2, len(typed_chars))
+        stdscr.move(line_y, text_x + len(typed_chars))
         stdscr.refresh()
 
         if len(typed_chars) == len(text):
