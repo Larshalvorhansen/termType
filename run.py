@@ -18,7 +18,7 @@ def preprocess_text(
                     continue
                 wrapped = textwrap.wrap(line, width=width)
                 for part in wrapped:
-                    outfile.write(part + "\n")
+                    outfile.write(part + " \n")
     except FileNotFoundError:
         print(f"Missing file: {input_path}")
         return False
@@ -63,7 +63,7 @@ def typing_tutor(stdscr, text, index, total, next_line=None):
     stdscr.clear()
 
     max_y, max_x = stdscr.getmaxyx()
-    text = text[:max_x]  # Ensure line fits screen width
+    text = text[:max_x]
     typed_chars = []
     mistakes = 0
     start_time = time.time()
@@ -71,12 +71,10 @@ def typing_tutor(stdscr, text, index, total, next_line=None):
     while True:
         stdscr.clear()
 
-        # Calculate vertical positions
-        line_y = max_y // 2  # center main text vertically
-        next_y = line_y + 2  # below main line
-        info_y = line_y - 2  # above main line for [index/total]
+        line_y = max_y // 2
+        next_y = line_y + 2
+        info_y = line_y - 2
 
-        # Centered X positions
         text_x = (max_x - len(text)) // 2
         info_x = (max_x - len(f"[{index}/{total}]")) // 2
         next_x = (max_x - len(next_line)) // 2 if next_line else 0
@@ -107,12 +105,12 @@ def typing_tutor(stdscr, text, index, total, next_line=None):
         ch = stdscr.get_wch()
 
         if isinstance(ch, str):
-            if ord(ch) == 27:  # ESC
+            if ord(ch) == 27:
                 if confirm_quit(stdscr):
                     return None
                 else:
                     continue
-            elif ord(ch) in (8, 127):  # Backspace
+            elif ord(ch) in (8, 127):
                 if typed_chars:
                     typed_chars.pop()
                 continue
@@ -351,14 +349,22 @@ def fisk_mode():
             )
             line = re.sub(r"^\S+:\s*", "", line)
             line = re.sub(r"  +", " ", line)
-            cleaned.append(line.strip())
+            line = line.strip()
+            if line:
+                cleaned.append(line)
 
         with open("processedcustom.txt", "w") as f:
             for line in cleaned:
-                wrapped = textwrap.wrap(line.strip(), width=50)
-                for part in wrapped:
-                    f.write(part + "\n")
+                for part in textwrap.wrap(line, width=50):
+                    f.write(part + "\u0020\n")
 
+        with open("processedcustom.txt", "r") as f:
+            lines = []
+            for raw in f:
+                if raw.strip():
+                    lines.append(raw.rstrip("\n"))
+
+        curses.wrapper(lambda stdscr: run_all_lines(stdscr, lines))
         return True
 
     except Exception as e:
